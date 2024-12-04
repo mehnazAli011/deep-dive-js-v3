@@ -30,8 +30,8 @@ Read why javascript do coersion and which cases?
 
 Scope
 -closure
--hoisiting
--lexical envoirment
+-hoisting
+-lexical environment
 -where you can access variable ,where you can not?.
 
 
