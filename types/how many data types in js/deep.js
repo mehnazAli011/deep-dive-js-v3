@@ -62,6 +62,27 @@ var isPalindrome= false;
 //symbol data type is unique value and immtuble data type in js
 
 //symbol is often use for object key to avoid name conllision.
+
+var id = Symbol("id");
+var preson = {
+    name:"john",
+    age:31,
+    [id] :'Johngamil@.com',
+}
+console.log(preson[id]);
+console.log(preson);
+
+for(let key in preson){
+    console.log(key);
+}
+
+var message = Symbol("Hello world!");
+console.log(message.description);
+console.log(message.toString());
+console.log(message);
+
+
+
 var a = Symbol("Hello!")
 var b = Symbol("Hello!")
 console.log(a===b);//false because each symbol is unique.
@@ -94,3 +115,29 @@ console.log(x);//undefined
 
 //null is special value in js that  intentionaly indaicting variable should hold an object at moment ,it dose not.means simple represent "nothing" and "no object".
 
+
+//BigInt:-
+
+//-all the integer greater then 2**52-1  handle in bigInt type.
+
+//How to create
+var bigInt = 12n;
+var bigInt = BigInt("12");
+console.log(bigInt);
+
+console.log(7n/7n);//1n
+console.log(7n+7n);//14n
+console.log(7n-7n);//0n
+
+console.log(Math.min(2,3));
+console.log(13n/4n);//3
+console.log(5n/2n);//2
+
+
+
+//javascript dose not converte decimal value to bigInt
+// var decimalValue = 2.3n; //erroe!
+
+// console.log(Math.min(2n,3n));//Error!
+
+// console.log(typeof +2n);//Error!
