@@ -28,7 +28,7 @@ var obj = { age: 30 };
 console.log(Number(obj)); //NaN
 console.log(Boolean(obj)); //NaN
 
-//implecit conversion
+//implicit conversion
 var arr = [1, 2, 3];
 console.log(arr + " ");
 
@@ -37,13 +37,13 @@ console.log(arr + " ");
 //-The toString abtract operation take any value return in string form.
 
 //example
-console.log(String(NaN));
-console.log(String(undefined));
-console.log(String(1));
-console.log(String(0));
-console.log(String(3.14));
-console.log(String(-9.0));
-console.log(String(-0)); // converte string both -0 and 0 is "0" in string form.
+console.log(String(NaN));//'NaN'
+console.log(String(undefined));//'Undefined'
+console.log(String(1));//'1'
+console.log(String(0));//'0'
+console.log(String(3.14));//'3.14'
+console.log(String(-9.0));//'-9.0'
+console.log(String(-0)); //"0" because in js -0 and 0 in string eqaul to  "0".string - sing not consider in string form. Techinlaly in js -0 and 0 are eqaul.
 
 //toString(object)
 console.log(String([]))//""
@@ -61,32 +61,32 @@ console.log(String({toString(){return "X";}}));//"X";
 
 //-The toNumber is a bit more interesting cuz a lot of corner cases.
 
-console.log(Number(""));
-console.log(Number("0"));
-console.log(Number("-0"));
-console.log(Number("  009"));
-console.log(Number("3.14159"));
-console.log(Number("0."));
-console.log(Number(".0"));
-console.log(Number("."));
+console.log(Number(""));//0
+console.log(Number("0"));//0
+console.log(Number("-0"));//-0
+console.log(Number("  009"));//9
+console.log(Number("3.14159"));//3.14159
+console.log(Number("0."));//0
+console.log(Number(".0"));//0
+console.log(Number("."));//NaN
 
 
-console.log(Number(false));
-console.log(Number(true));
-console.log(Number(null));
-console.log(Number(undefined));
+console.log(Number(false));//0
+console.log(Number(true));//1
+console.log(Number(null));//0
+console.log(Number(undefined));//NaN
 
 
-console.log(Number([""]));
-console.log(Number(["0"]));
-console.log(Number(["-0"]));
-console.log(Number([null]));
-console.log(Number([undefined]));
-console.log(Number([1,2,3]));
-console.log(Number([[[[]]]]));
+console.log(Number([""]));//0
+console.log(Number(["0"]));//0
+console.log(Number(["-0"]));//-0
+console.log(Number([null]));//0
+console.log(Number([undefined]));//0
+console.log(Number([1,2,3]));//NaN
+console.log(Number([[[[]]]]));//0
 
-console.log(Number({}));
-console.log(Number({valueOf(){return 3}}));
+console.log(Number({}));//NaN
+console.log(Number({valueOf(){return 3}}));//3
 
 
 //toBoolean
@@ -101,21 +101,21 @@ console.log(Number({valueOf(){return 3}}));
 //undefined             true
 //null                function{}
 
-console.log(Boolean(true));
-console.log(Boolean(false));
-console.log(Boolean(1));
-console.log(Boolean({}));
-console.log(Boolean(()=>{}));
-console.log(Boolean(`1`));
-console.log(Boolean(undefined));
-console.log(Boolean(""));
-console.log(Boolean(0/0));
-console.log(Boolean(null));
-console.log(Boolean(-456));
-console.log(!!Boolean(true));
-console.log(Boolean(class name {
+console.log(Boolean(true));//true
+console.log(Boolean(false));//false
+console.log(Boolean(1));//true
+console.log(Boolean({}));//true
+console.log(Boolean(()=>{}));//true
+console.log(Boolean(`1`));//true
+console.log(Boolean(undefined));//false
+console.log(Boolean(""));//false
+console.log(Boolean(0/0));//false
+console.log(Boolean(null));//false
+console.log(Boolean(-456));//true
+console.log(!!Boolean(true));//true
+console.log(Boolean(class name {//true
     constructor(parameters) {
         
     }
 }));
-console.log(Boolean(new Boolean()));
+console.log(Boolean(new Boolean()));//true
