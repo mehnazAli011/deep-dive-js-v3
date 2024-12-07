@@ -36,3 +36,11 @@ console.log(typeof -7n);//??
 console.log(typeof `-7n`);//??
 console.log(typeof 2.3);//??
 console.log(typeof `${2**2}`);//??
+console.log(typeof BigInt('1'));//??
+console.log(typeof Symbol("1"));//??
+console.log(typeof value);//??
+console.log(typeof null);//??
+console.log(typeof typeof null);//??
+console.log(typeof typeof {});//??
+console.log(typeof typeof ``);//??
+console.log(typeof typeof value);//??
