@@ -1,6 +1,6 @@
 //what is typeof operator???
 
-//The typeof operator in js  used to  check  type of variable.
+//The typeof operator in js  used to  check  type of variable value.
 
 //let's see 
 var x = 2;
@@ -44,3 +44,11 @@ console.log(typeof typeof null);//??
 console.log(typeof typeof {});//??
 console.log(typeof typeof ``);//??
 console.log(typeof typeof value);//??
+console.log(typeof (()=>{}));//??
+console.log(typeof new String(1));//??
+console.log(typeof Math.min);//??
+console.log(typeof class name {
+    constructor(parameters) {
+        
+    }
+});//??
