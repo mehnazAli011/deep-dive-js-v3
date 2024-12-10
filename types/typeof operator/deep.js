@@ -52,3 +52,32 @@ console.log(typeof class name {
         
     }
 });//??
+
+
+// example solution->
+//"number"
+//"string"
+//"string"
+//"Boolean"
+//"undefined"
+//"Boolean"
+//"number"
+//"object"
+//"object"
+//"number"
+//"bigInt"
+//"number"
+//"string"
+//"BigInt"
+//"symbol"
+//"undefind"
+//"object"
+//"string"
+//"string"
+//"string"
+//"string"
+//"funtion"
+//"object"
+//"function"
+//"function"
+
