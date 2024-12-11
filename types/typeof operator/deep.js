@@ -81,3 +81,16 @@ console.log(typeof class name {
 //"function"
 //"function"
 
+
+//How ??? typeof([]) is object , (typeof value) is undefined,(typeof `${2**2}`); is string,(typeof null) is object ,(typeof typeof ``);string, (typeof typeof value)  is string ,(typeof typeof {}) is string and (typeof typeof null) is string.
+
+
+//let's  understand each one
+
+typeof [] //  is "Object" because array is speical type of object.
+//if want check is check array or not then u use Array.isArray built-in method.
+
+typeof value// is "undefined"  because value is delcare but not assing any value means it undefined the type is represent value is undeifned.
+
+typeof `${2**2}`// is string because it return 4  in string form.
+console.log(`${2**2}`);//`4`
