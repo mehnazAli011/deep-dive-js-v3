@@ -96,7 +96,6 @@ typeof `${2**2}`// is string because it return 4  in string form.
 console.log(`${2**2}`);//`4`
 
 
-
 typeof null//is "object" that is definilty worng but that bug in javascript when devlop javascript engine then null treat as a object but that is a historical bug in javascipt.
 
 //-The reson is still return 'object' because for maintain backward compatibility.
