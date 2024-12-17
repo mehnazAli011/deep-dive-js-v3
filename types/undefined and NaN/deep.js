@@ -19,3 +19,7 @@
 
 //NaN is not eqaul itslef because NaN is unique value in js.
 console.log(NaN===NaN);//false
+
+//wheh you try converted non-numerical value to number type
+var str = "Hello";
+console.log(Number(str));//NaN means in valid operation in js
