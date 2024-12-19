@@ -13,7 +13,7 @@
 
 //NaN &&isNaN
 
-//-NaN represent invalid number in javascript.
+//-NaN represent invalid and unrepresentable  number in javascript.
 
 //-In some cases javascript return NaN.
 
@@ -28,3 +28,9 @@ console.log(Number(str));//NaN means in valid operation in js
 var calculate = "a" *"b";
 var calculate = "a" -"b";
 console.log(calculate);//NaN
+
+//when you do invalid mathamethic operation
+var x = Infinity/-Infinity
+console.log(x);//NaN
+console.log(Math.sqrt(-1));//NaN
+console.log(Math.sqrt(0/0));//NaN
