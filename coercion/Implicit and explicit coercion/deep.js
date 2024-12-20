@@ -3,7 +3,7 @@
 //1.Implicit coercion
 //2.Explicit coercion
 
-//Implicit coercion means when javascript engine actomatically converte one type to another that is implicit coercion.
+//Implicit coercion means when javascript engine automatically converte one type to another that is implicit coercion.
 
 //EXAMPLE
 var x = 2;
@@ -12,7 +12,7 @@ var z= x+y;
 console.log(z);
 
 
-//Explicit coercion mean when user converte one type to another data type 
+//Explicit coercion means when user converte one type to another data type 
 
 //EXAMPLE
 
@@ -27,8 +27,9 @@ console.log(z);
 
 var str = "Hello!";
 console.log(str.length);//6
-
-
+// |
+// |
+// |
 //Memory
 var str = new Object("Hello!");
 console.log(str.length);//6

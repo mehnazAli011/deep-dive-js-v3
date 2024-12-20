@@ -4,7 +4,7 @@
 
 //undefined means definitly a variable but at a momnet but not have any value.
 
-//undeclared measn this value does not create in any scope.
+//undeclared means this value does not create in any scope.
 
 //uninitliazation and TDZ (Tempreal dead zone) was introduced with E56,in simple trem you meaning you can not touch yet.
 
@@ -34,3 +34,6 @@ var x = Infinity/-Infinity
 console.log(x);//NaN
 console.log(Math.sqrt(-1));//NaN
 console.log(Math.sqrt(0/0));//NaN
+console.log(undefined+null);
+console.log(undefined*null);
+console.log(undefined-null);

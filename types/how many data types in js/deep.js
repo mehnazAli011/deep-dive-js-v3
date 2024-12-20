@@ -107,7 +107,7 @@
 
 // //It is assigment value that intentional represent absecne of any object  value.
 
-// //null is special value in js that  intentionaly indaicting variable should hold an object at moment ,it dose not.means simple represent "nothing" and "no object".
+// //null is special value in js that  intentionaly indaicting variable should hold an object at moment ,it dose not. means simple represent "nothing" and "no object".
 
 // //BigInt:-
 
