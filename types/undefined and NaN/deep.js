@@ -37,3 +37,6 @@ console.log(Math.sqrt(0/0));//NaN
 console.log(undefined+null);
 console.log(undefined*null);
 console.log(undefined-null);
+
+//NaN is definilty a number but invalid number.
+console.log(typeof NaN);//"number"
