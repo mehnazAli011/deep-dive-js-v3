@@ -40,3 +40,11 @@ console.log(undefined-null);
 
 //NaN is definilty a number but invalid number.
 console.log(typeof NaN);//"number"
+
+//isNaN()
+
+//-The isNaN() function is deremins given value NaN or not.But for the historical reason isNaN first try to converte value into number form then check is value is NaN then  return true otherwies false.
+
+
+//Number.isNaN()
+//Number.isNaN() function is strictly  check if value is NaN then return true otherwise retrun false.means definilty if  value is NaN so retrun true,otherwies always retrun false.
