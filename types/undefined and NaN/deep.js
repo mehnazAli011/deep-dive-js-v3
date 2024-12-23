@@ -48,3 +48,9 @@ console.log(typeof NaN);//"number"
 
 //Number.isNaN()
 //Number.isNaN() function is strictly  check if value is NaN then return true otherwise retrun false.means definilty if  value is NaN so retrun true,otherwies always retrun false.
+
+
+var myAge = Number("0o46");       // 38
+var myNextAge = Number("39");     // 39
+var myCatsAge = Number("n/a");    // NaN
+myAge - "my son's age";           // NaN
