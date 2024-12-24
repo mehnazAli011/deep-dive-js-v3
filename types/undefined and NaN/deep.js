@@ -54,3 +54,9 @@ var myAge = Number("0o46");       // 38
 var myNextAge = Number("39");     // 39
 var myCatsAge = Number("n/a");    // NaN
 myAge - "my son's age";           // NaN
+
+myCatsAge === myCatsAge;          // false   
+
+isNaN(myAge);                     // false
+isNaN(myCatsAge);                 // true
+isNaN("my son's age");            // true   
