@@ -60,3 +60,8 @@ myCatsAge === myCatsAge;          // false
 isNaN(myAge);                     // false
 isNaN(myCatsAge);                 // true
 isNaN("my son's age");            // true   
+
+Number.isNaN(myCatsAge);          // true
+Number.isNaN("my son's age");     // false
+
+// Special Values: NaN
