@@ -65,3 +65,10 @@ Number.isNaN(myCatsAge);          // true
 Number.isNaN("my son's age");     // false
 
 // Special Values: NaN
+
+
+
+//do some pratice example
+console.log(Number.isNaN('123'));
+console.log(Number.isNaN(123));
+console.log(Number.isNaN(`123`));
