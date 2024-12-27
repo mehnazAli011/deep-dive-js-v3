@@ -72,3 +72,6 @@ Number.isNaN("my son's age");     // false
 console.log(Number.isNaN('123'));
 console.log(Number.isNaN(123));
 console.log(Number.isNaN(`123`));
+console.log(Number.isNaN('Hello'));
+console.log(Number.isNaN(0/0));
+console.log(Number.isNaN(undefined));
