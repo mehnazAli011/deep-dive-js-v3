@@ -75,3 +75,6 @@ console.log(Number.isNaN(`123`));
 console.log(Number.isNaN('Hello'));
 console.log(Number.isNaN(0/0));
 console.log(Number.isNaN(undefined));
+console.log(isNaN(NaN));
+console.log(isNaN('123'));
+console.log(isNaN(123));
