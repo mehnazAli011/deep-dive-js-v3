@@ -78,3 +78,12 @@ console.log(Number.isNaN(undefined));
 console.log(isNaN(NaN));
 console.log(isNaN('123'));
 console.log(isNaN(123));
+
+
+
+
+//answer!!!
+//false
+//false
+//false
+//false
