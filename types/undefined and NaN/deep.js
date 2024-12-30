@@ -87,3 +87,7 @@ console.log(isNaN(123));
 //false
 //false
 //false
+//true
+//false
+//false
+//true
