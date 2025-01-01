@@ -97,3 +97,8 @@ console.log(isNaN(123));
 //false
 //true
 //true
+
+
+//what is typeof operator???
+
+//The typeof operator in js  used to  check  type of variable.
