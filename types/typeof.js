@@ -17,3 +17,9 @@ console.log(typeof x);//'number'
 //| ----------------- 
 
 //it is go into momory and check where is x store, find x locaition and which value hold x variable see it hold value is 2 that is integer ,means that is a number.
+
+
+//Type of operator
+//- The typeof operator always return result in string form.
+
+//-It check which value type value store in variables.
