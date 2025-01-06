@@ -23,3 +23,14 @@ console.log(typeof x);//'number'
 //- The typeof operator always return result in string form.
 
 //-It check which value type value store in variables.
+
+
+//do practice with given example
+var value;
+console.log(typeof 42);//??
+console.log(typeof "");//??
+console.log(typeof 'hello');//??
+console.log(typeof true);//??
+console.log(typeof undefined);//??
+console.log(typeof false);//??
+console.log(typeof 0);//??
