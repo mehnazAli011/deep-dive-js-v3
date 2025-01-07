@@ -33,4 +33,9 @@ console.log(typeof 'hello');//??
 console.log(typeof true);//??
 console.log(typeof undefined);//??
 console.log(typeof false);//??
-console.log(typeof 0);//??
+console.log(typeof 0);//?
+console.log(typeof {});//??
+console.log(typeof []);//??
+console.log(typeof -7);//??
+console.log(typeof -7n);//??
+console.log(typeof `-7n`);//??
