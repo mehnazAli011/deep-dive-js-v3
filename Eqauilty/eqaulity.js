@@ -22,3 +22,9 @@ console.log(x==y);//true ???
 var x= 3;
 var y ="3";
 console.log(x===y);//false
+//behind the scenes
+// memory   |check value | type     |    comparision                   |result
+//                                                     
+// x=3      |  3         | number   |   3==="3"                        | false
+//y="3"     |  3         |string    |   value is same but type if diff |             
+
