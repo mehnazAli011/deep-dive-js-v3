@@ -28,3 +28,6 @@ console.log(x===y);//false
 // x=3      |  3         | number   |   3==="3"                        | false
 //y="3"     |  3         |string    |   value is same but type if diff |             
 
+
+
+//then see double equal allow type converstion bot,triple equality not allow ,it strictly check is both type and value is equal then retrun true otherwies always return false.
