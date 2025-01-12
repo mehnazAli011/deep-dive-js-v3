@@ -31,3 +31,9 @@ console.log(x===y);//false
 
 
 //then see double equal allow type converstion bot,triple equality not allow ,it strictly check is both type and value is equal then retrun true otherwies always return false.
+
+
+//which one use??
+//double eqaulity:- Double equality allow type conversion give unexpected result.
+
+//Triple equality:-Give the expected result without any confustion.
