@@ -37,3 +37,12 @@ console.log(x===y);//false
 //double eqaulity:- Double equality allow type conversion give unexpected result.
 
 //Triple equality:-Give the expected result without any confustion.
+
+
+
+//DO EXCISE FOR PRACTICE:-
+console.log(3=="3");//true
+console.log(3==3);//true
+console.log(true==1);// 1==1 true
+console.log(true==0);//1==0 false
+console.log(false==0);//0==0 false
