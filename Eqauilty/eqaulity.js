@@ -46,3 +46,6 @@ console.log(3==3);//true
 console.log(true==1);// 1==1 true
 console.log(true==0);//1==0 false
 console.log(false==0);//0==0 false
+console.log(NaN==NaN)//false
+console.log(undefined==null);//true becuase eqaul each other in JS
+console.log(0=="");//0==0 true
