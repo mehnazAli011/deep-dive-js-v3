@@ -49,3 +49,8 @@ console.log(false==0);//0==0 false
 console.log(NaN==NaN)//false
 console.log(undefined==null);//true becuase eqaul each other in JS
 console.log(0=="");//0==0 true
+console.log("null"==null);//NaN==0 false
+console.log(undefined==0);///false
+console.log('hello'==5);//NaN==5 false
+console.log({name:'Alice'}=='Alice');//"[object Object]"==NaN false
+console.log([1,2,3]==[1,2,3]);//different object in momory
