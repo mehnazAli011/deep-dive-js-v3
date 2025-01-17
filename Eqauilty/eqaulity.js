@@ -54,3 +54,8 @@ console.log(undefined==0);///false
 console.log('hello'==5);//NaN==5 false
 console.log({name:'Alice'}=='Alice');//"[object Object]"==NaN false
 console.log([1,2,3]==[1,2,3]);//different object in momory
+console.log({name:'Alice'}=="[object,Object]");//NaN==NaN false
+console.log(0=="0");//false
+console.log([]=="");//0==0 true
+console.log(0==NaN); //0==NaN false
+
