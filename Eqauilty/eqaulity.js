@@ -58,4 +58,8 @@ console.log({name:'Alice'}=="[object,Object]");//NaN==NaN false
 console.log(0=="0");//false
 console.log([]=="");//0==0 true
 console.log(0==NaN); //0==NaN false
+console.log("10"==20); //10==20 false
+console.log(undefined==false);//NaN==0 false 
+console.log({name:'Alice'}=={name:'Alice'}); //different refernece
+
 
