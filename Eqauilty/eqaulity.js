@@ -63,3 +63,9 @@ console.log(undefined==false);//NaN==0 false
 console.log({name:'Alice'}=={name:'Alice'}); //different refernece
 
 
+
+//Triple eqaulity
+console.log(NaN===NaN);//false
+console.log(5==="5");//false
+console.log(undefined===null);//false
+console.log(undefined===undefined);//true
