@@ -69,3 +69,12 @@ console.log(NaN===NaN);//false
 console.log(5==="5");//false
 console.log(undefined===null);//false
 console.log(undefined===undefined);//true
+
+
+
+//CORNER CASES
+//Double equality
+console.log([]==![]);//true
+//[]==false
+//""==false
+//0==0 true
