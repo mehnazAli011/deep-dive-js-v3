@@ -78,3 +78,13 @@ console.log([]==![]);//true
 //[]==false
 //""==false
 //0==0 true
+
+
+
+//Booleans:
+var arr = [];
+if(arr){
+    //yep
+   // if(Boolean([]))
+   //if(true)
+}
