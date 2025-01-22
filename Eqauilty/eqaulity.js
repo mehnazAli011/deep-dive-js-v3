@@ -88,3 +88,14 @@ if(arr){
    // if(Boolean([]))
    //if(true)
 }
+if(arr==true){
+    //[]==1
+    //""==1
+    //0==1
+    //false
+}
+if(arr==false){
+    //""==false
+    //0==0
+    //true
+}
