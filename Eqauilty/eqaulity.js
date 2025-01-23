@@ -99,3 +99,8 @@ if(arr==false){
     //0==0
     //true
 }
+function myFunc() {
+    console.log("noraml function");
+  }
+  console.log(myFunc());
+  
