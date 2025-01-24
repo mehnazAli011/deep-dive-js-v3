@@ -104,3 +104,10 @@ function myFunc() {
   }
   console.log(myFunc());
   
+  
+//function exprssion//anonymous
+var myFunc = function () {
+    console.log("Function expression!");
+  };
+  console.log(myFunc());
+  
