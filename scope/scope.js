@@ -11,3 +11,7 @@
 //example
 var x = 2; //global scope
 console.log(x); //x is accessible everywhere
+
+
+//function scope:-
+//variable declare and function declare inside of any function in js means that is fhunction scope that only accessible with that function,outside function is not accessible.
