@@ -28,4 +28,9 @@ function myFunction() {
   console.log(myFunction());
   
   // console.log(y);//ERROR!
-  
+  //Block scope:-
+//Block scope create with culry bases({}) if variable declare in block scope only accessiable inside of function.
+
+//note:only let and const create block scope.
+
+//-block scope introduced in ES6 with let and const.
