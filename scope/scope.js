@@ -34,3 +34,10 @@ function myFunction() {
 //note:only let and const create block scope.
 
 //-block scope introduced in ES6 with let and const.
+EXAMPLE:-
+{
+  //block scope
+  let z = 3;
+  console.log(z);
+}
+// console.log(z);ERROR!
