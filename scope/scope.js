@@ -34,10 +34,13 @@ function myFunction() {
 //note:only let and const create block scope.
 
 //-block scope introduced in ES6 with let and const.
-EXAMPLE:-
-{
-  //block scope
-  let z = 3;
-  console.log(z);
-}
-// console.log(z);ERROR!
+// EXAMPLE:-
+// {
+//   //block scope
+//   let z = 3;
+//   console.log(z);
+// }
+// // console.log(z);ERROR!
+
+//lexical scope:-
+//lexical scope means you can access variable from it own scope and present function scope where it was defined.
