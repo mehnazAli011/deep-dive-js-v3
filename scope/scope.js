@@ -44,3 +44,17 @@ function myFunction() {
 
 //lexical scope:-
 //lexical scope means you can access variable from it own scope and present function scope where it was defined.
+
+//example
+
+function func1() {
+
+  function func2() {
+let message = "Hello!";
+console.log(message);
+
+  }
+  return func2;
+}
+var myOutput  =func1();
+console.log(myOutput());
