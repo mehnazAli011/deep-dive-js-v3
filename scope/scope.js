@@ -62,3 +62,7 @@ console.log(myOutput());
 
 //Hoisting
 //In Js Hositing is a defalut behavior  they take all the function and variable decalertion and put top in their scope,
+
+// var c ;
+// c=3;
+// console.log(c);//3
