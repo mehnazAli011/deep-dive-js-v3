@@ -66,3 +66,8 @@ console.log(myOutput());
 // var c ;
 // c=3;
 // console.log(c);//3
+
+
+// c=3;
+// var c ;
+// console.log(c);//3
