@@ -71,3 +71,7 @@ console.log(myOutput());
 // c=3;
 // var c ;
 // console.log(c);//3
+
+console.log(c); //undefined because only declaration hoisited not assigment.
+c = 3;
+var c;
