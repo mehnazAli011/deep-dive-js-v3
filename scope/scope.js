@@ -75,3 +75,9 @@ console.log(myOutput());
 console.log(c); //undefined because only declaration hoisited not assigment.
 c = 3;
 var c;
+
+//Let and const Hoisited in TDZ.
+
+// let e ;
+// e=4;
+// console.log(e);
