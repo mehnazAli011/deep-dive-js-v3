@@ -81,3 +81,7 @@ var c;
 // let e ;
 // e=4;
 // console.log(e);
+
+// console.log(e);//ERROR!
+// let e ;
+// e=4;
