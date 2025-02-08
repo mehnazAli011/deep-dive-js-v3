@@ -85,3 +85,6 @@ var c;
 // console.log(e);//ERROR!
 // let e ;
 // e=4;
+
+
+//const same behvior in hoisitg.
