@@ -88,3 +88,6 @@ var c;
 
 
 //const same behvior in hoisitg.
+
+//What is TDZ (Temprol dead zone)
+//Temprol dead zone refer to the period between the entering of the  scope and the point where variable is inlization.
