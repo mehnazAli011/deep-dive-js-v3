@@ -93,3 +93,13 @@ var c;
 //Temprol dead zone refer to the period between the entering of the  scope and the point where variable is inlization.
 
 // console.log(d);
+
+// //
+// //This area is
+// //
+// //TDZ
+// //
+// //
+// //
+// //
+// //
