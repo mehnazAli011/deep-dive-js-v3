@@ -104,3 +104,5 @@ var c;
 // //
 // //
 // const d = 7;
+//closure
+//In js closure is function that access variable from it lexical envoirment(phyically where is present) ,in other word closure is function that access variable from outer scope when outer function is finish your exection context.
