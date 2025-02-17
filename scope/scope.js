@@ -108,3 +108,5 @@ var c;
 //In js closure is function that access variable from it lexical envoirment(phyically where is present) ,in other word closure is function that access variable from outer scope when outer function is finish your exection context.
 
 //closure is "remembers" variable from it lexical envoriment not whole execution context.
+
+//EXAMPLE
