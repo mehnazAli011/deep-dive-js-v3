@@ -110,3 +110,12 @@ var c;
 //closure is "remembers" variable from it lexical envoriment not whole execution context.
 
 //EXAMPLE
+function outer() {
+  let x = 3;
+  function inner() {
+    return x;
+  }
+  return inner;
+}
+var res = outer();
+console.log(res());
