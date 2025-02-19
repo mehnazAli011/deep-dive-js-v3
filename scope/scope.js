@@ -119,3 +119,13 @@ function outer() {
 }
 var res = outer();
 console.log(res());
+
+
+function myFunction() {
+  let x = 8;
+  setTimeout(() => {
+    console.log(x);
+  }, 1000);
+}
+var res = myFunction();
+console.log(res);//8
