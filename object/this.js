@@ -1,4 +1,4 @@
-// "this" refer the current context of code. it depend where and how it used.
+"this" refer the current context of code. it depend where and how it used.
 
 
 // global context
