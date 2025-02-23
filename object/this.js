@@ -3,3 +3,6 @@
 
 // global context
 console.log(this);
+
+
+//in function
