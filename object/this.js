@@ -6,3 +6,9 @@ console.log(this);
 
 
 //in function
+
+
+function myFunc() {
+    console.log(this);
+  }
+  console.log(myFunc());
