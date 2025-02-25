@@ -12,3 +12,5 @@ function myFunc() {
     console.log(this);
   }
   console.log(myFunc());
+  
+//'use strict'
