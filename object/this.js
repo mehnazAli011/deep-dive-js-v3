@@ -18,3 +18,5 @@ function myFunc() {
 //     console.log(this);
 //   }
 //   console.log(myFunc());//ERROR!
+
+//In object method
