@@ -20,3 +20,12 @@ function myFunc() {
 //   console.log(myFunc());//ERROR!
 
 //In object method
+var person = {
+  name: "john",
+  age: 21,
+  greet: function () {
+    console.log("Hello," + this.name);
+  },
+};
+console.log(person.greet());
+
