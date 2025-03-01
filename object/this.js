@@ -29,3 +29,10 @@ var person = {
 };
 console.log(person.greet());
 
+//Inside of constructor function
+function Person(name) {
+  this.name = name;
+}
+var person = new Person("Bob");
+console.log(person.name);
+
