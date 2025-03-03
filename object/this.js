@@ -36,3 +36,17 @@ function Person(name) {
 var person = new Person("Bob");
 console.log(person.name);
 
+
+
+// class Person {
+//   constructor(name) {
+//     this.name = name;
+//   }
+
+//   greet() {
+//     console.log("Hello, " + this.name);
+//   }
+// }
+
+// const person2 = new Person("Charlie");
+// person2.greet(); // Output: Hello, Charlie
