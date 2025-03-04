@@ -50,3 +50,6 @@ console.log(person.name);
 
 // const person2 = new Person("Charlie");
 // person2.greet(); // Output: Hello, Charlie
+
+//Arrow function
+//Arrow function does not have own this .insted ,they inherit from surrounding enivoriment
