@@ -53,4 +53,11 @@ console.log(person.name);
 
 //Arrow function
 //Arrow function does not have own this .insted ,they inherit from surrounding enivoriment
-// var person = {
+var person = {
+  name: "David",
+  greet: function () {
+    setTimeout(() => {
+      console.log("Hello, " + this.name);
+    }, 1000);
+  },
+};
