@@ -61,3 +61,5 @@ var person = {
     }, 1000);
   },
 };
+
+person.greet(); // Output: Hello, David
