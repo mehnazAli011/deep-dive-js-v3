@@ -63,3 +63,16 @@ var person = {
 };
 
 person.greet(); // Output: Hello, David
+
+
+
+var person = {
+  name: "David",
+  greet: function () {
+    setTimeout(function () {
+      console.log("Hello, " + this.name);
+    }, 1000);
+  },
+};
+
+person.greet(); // Output: Hello, undeifned.
