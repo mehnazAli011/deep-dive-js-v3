@@ -76,3 +76,15 @@ var person = {
 };
 
 person.greet(); // Output: Hello, undeifned.
+
+//DO PREACIE WITH GIVEN EXAMPLE
+
+var obj = {
+  name: "deeecode",
+  age: 200,
+  print: function () {
+    console.log(this);
+  },
+};
+console.log(obj.print()); //?? output :
+
