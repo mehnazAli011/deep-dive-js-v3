@@ -88,3 +88,14 @@ var obj = {
 };
 console.log(obj.print()); //?? output :
 
+var obj = {
+  name: "deeecode",
+  age: 200,
+  print: function () {
+    function print2() {
+      console.log(this);
+    }
+    print2();
+  },
+};
+console.log(obj.print()); //??output:
