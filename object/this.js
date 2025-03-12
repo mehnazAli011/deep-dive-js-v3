@@ -99,3 +99,4 @@ var obj = {
   },
 };
 console.log(obj.print()); //??output:
+var obj = {
