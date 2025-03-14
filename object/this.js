@@ -105,3 +105,13 @@ var obj = {
 };
 
 console.log(obj.print()); //??output:
+
+
+
+var a = 5;
+console.log(this.a); //??
+
+function getPara() {
+  console.log(this.a);
+}
+console.log(getPara()); //??
