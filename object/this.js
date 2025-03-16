@@ -115,3 +115,17 @@ function getPara() {
   console.log(this.a);
 }
 console.log(getPara()); //??
+
+
+var user = {
+  name: "John",
+  age: 21,
+  childObj: {
+    newUser: "Alice",
+    get() {
+      console.log(this.newUser + " and " + this.name);
+    },
+  },
+};
+
+console.log(user.childObj.get()); //??
