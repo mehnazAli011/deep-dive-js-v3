@@ -129,3 +129,15 @@ var user = {
 };
 
 console.log(user.childObj.get()); //??
+
+
+var user = {
+  name: "John",
+  age: 21,
+
+  get: () => {
+    console.log(this.name);
+  },
+};
+
+console.log(user.get()); //??
