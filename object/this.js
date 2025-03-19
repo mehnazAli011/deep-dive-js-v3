@@ -155,3 +155,16 @@ var user = {
 
 console.log(user.childObj.get()); //??
 
+
+
+var user = {
+  name: "John",
+  age: 21,
+
+  get: () => {
+    const nestedArrow = () => console.log(this.name);
+    nestedArrow();
+  },
+};
+
+console.log(user.get()); //??
