@@ -168,3 +168,15 @@ var user = {
 };
 
 console.log(user.get()); //??
+
+var user = {
+  name: "John",
+  age: 21,
+
+  getName() {
+    const name = "Alice";
+    return this.name;
+  },
+};
+
+console.log(user.getName()); //??
