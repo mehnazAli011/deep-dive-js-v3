@@ -49,3 +49,12 @@ console.log(obj.arrowFunc());
 //     }
 //   };
 //   obj.regularFunc();  // My Object
+
+
+Arrow function
+Arrow function do not use as a constructed because arrow function do not have[[construct]]  internal method.
+
+
+Regular Function
+Regular funtion use as a constructer it's call with the new keyword.
+When used with new, they create an object and bind the this value to the newly created object. 
