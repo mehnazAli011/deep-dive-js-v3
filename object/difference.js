@@ -51,10 +51,26 @@ console.log(obj.arrowFunc());
 //   obj.regularFunc();  // My Object
 
 
-Arrow function
-Arrow function do not use as a constructed because arrow function do not have[[construct]]  internal method.
+// Arrow function
+// Arrow function do not use as a constructed because arrow function do not have[[construct]]  internal method.
 
+
+// Regular Function
+// Regular funtion use as a constructer it's call with the new keyword.
+// When used with new, they create an object and bind the this value to the newly created object. 
+
+
+Arrow Function
+Arrow function do not have argumnet object.
+const arrowFunc = () => {
+  console.log(arguments); // Will throw an error
+};
 
 Regular Function
-Regular funtion use as a constructer it's call with the new keyword.
-When used with new, they create an object and bind the this value to the newly created object. 
+Regular function have arguments object which is an array-like object that contains all arguments passed to the function.
+
+
+function sum() {
+  console.log(arguments); // {0: 1, 1: 2, 2: 3, ...}
+}
+sum(1, 2, 3); // Logs arguments
