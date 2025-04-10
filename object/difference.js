@@ -73,4 +73,3 @@ console.log(obj.arrowFunc());
 //   console.log(arguments); // {0: 1, 1: 2, 2: 3, ...}
 // }
 // sum(1, 2, 3); // Logs arguments
-//
